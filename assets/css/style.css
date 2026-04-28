@@ -636,6 +636,7 @@ body {
         border: #003118 solid 2px;
     }
     .offcanvas-header .Button img{
+        z-index: 500 !important;
         width: 30px !important;
     }
     .btn-close-menu{
