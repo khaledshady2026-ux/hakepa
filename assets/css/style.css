@@ -44,19 +44,22 @@ body {
     }
 }
 
-
+.Navs_Data .nav{
+    width: 55%;
+}
 .Navs_Data .nav ul {
-    width: 600px;
+    width: 85%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    text-align: center;
     position: relative;
     overflow: hidden;
 }
 .Navs_Data .nav ul a{
-    width: 600px;
+    width:auto;
     height: 40px;
     text-decoration: none;
     font-size: 16px;
