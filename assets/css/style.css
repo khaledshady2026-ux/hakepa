@@ -635,14 +635,14 @@ body {
         border-bottom-right-radius: 30px; 
         border: #003118 solid 2px;
     }
-    .offcanvas-header .Button img{
-        z-index: 500 !important;
-        width: 30px !important;
-    }
-    .btn-close-menu{
-        display:  block !important;
+    .offcanvas-header button{
         background: none;
         border: none;
+        background-image: url(../images/power-svgrepo-com.png);
+        background-position: center;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
     }
     .offcanvas.show {
         width: 280px;
