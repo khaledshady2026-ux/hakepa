@@ -554,10 +554,13 @@ body {
     margin-right: 15px;
 }
 .Footer .Footer_Data .Footer_Info ul {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
     overflow: hidden;
+    list-style: none;
+    padding-right: 30px;
 }
 .Footer .Footer_Data .Footer_Info ul a{
     text-decoration: none;
@@ -617,6 +620,9 @@ body {
     .Navs_Mobile .Navs_Data .logo{
         margin-top: 15px;
     }
+    .Navs_Data {
+        height: 48px;
+    }
     .offcanvas-header{
         background-color: #c2ecdd;
         height:90px;
@@ -629,9 +635,8 @@ body {
         border-bottom-right-radius: 30px; 
         border: #003118 solid 2px;
     }
-    .offcanvas-header .Button{
-        width: 50px;
-        height: 50px;
+    .offcanvas-header .Button img{
+        width: 30px !important;
     }
     .btn-close-menu{
         display:  block !important;
@@ -1008,16 +1013,18 @@ width: auto;
     text-align: center;
 }
 .Dro_Nav{
+    width: 100%;
     margin: 15px auto;
     display: flex;
     justify-content: space-between;
 }
 .Dro_Nav ul li{
-    width: 100%;
+    width: auto%;
     list-style: none;
 }
 .Footer .Footer_Data .Footer_Info ul{
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 .Footer .Footer_Data .Footer_Info ul a {
     width: 100%;
